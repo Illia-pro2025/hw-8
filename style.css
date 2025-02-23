@@ -41,6 +41,9 @@ div>.yellow{
 .item9{
     color: antiquewhite;
 }
-.time:first-child(even){
+.time:nth-child(even){
     color: cornflowerblue;
+}
+.time:nth-child(odd){
+    color: rosybrown;
 }
